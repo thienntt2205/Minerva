@@ -73,7 +73,9 @@ with the statement _"List all pairs"_ and the other 2 examples.
 
 ### Problem 2: Beautiful Strings
 
-- TODO:
+Please find the solution in [`BeautifulString][beautiful_string_main]
+
+[beautiful_string_main]: ./lib/src/main/java/beautiful_string/BeautifulString.java
 
 ## Section 3: System Design
 
