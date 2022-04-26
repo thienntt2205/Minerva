@@ -27,7 +27,16 @@ having
 
 > How many types of pagination in SQL?
 
-TODO:
+- Pagination with LIMIT and OFFSET
+  - Use keyword LIMIT and OFFSET to limit item display on a page.
+  - Basically it's still fetch all matching row to "sort", the time to fetch will increase continuously by later page. Fetching the last page can take much more longer than fetcher the first page.
+  - pros: Easy to understand, implement(default method), able to jump to the wanted target.
+  - cons: Bad performance
+- Pagination with condition
+  - Don't touch what you don't need.
+    Only use query command for the only part you need.
+  - pros: higher performance.
+  - cons: hard to implement, unable to jump to the wanted target.
 
 ## Section 1: Coding Challenge
 
