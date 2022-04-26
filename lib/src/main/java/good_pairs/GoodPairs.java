@@ -1,10 +1,10 @@
-package minerva;
+package good_pairs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class GoodPairs {
     // Time: O(n^2)
     // Space: O(n^2)
     public int[][] GoodPairCount(int[] nums) {
@@ -26,7 +26,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution Goodpair = new Solution();
+        GoodPairs Goodpair = new GoodPairs();
         int[] inputArray = {1, 1, 1, 1};
         System.out.println(Arrays.deepToString(Goodpair.GoodPairCount(inputArray)));
     }

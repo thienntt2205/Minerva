@@ -1,4 +1,4 @@
-package minerva;
+package good_pairs;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class SolutionTest {
+class GoodPairsTest {
 
     static class GoodPairTestCase {
         int[] input;
@@ -44,7 +44,7 @@ class SolutionTest {
                 new int[][]{}
         ));
 
-        Solution solution = new Solution();
+        GoodPairs solution = new GoodPairs();
         for (GoodPairTestCase tc : testCases) {
             int[][] actual = solution.GoodPairCount(tc.input);
             Arrays.sort(actual, Arrays::compare);
